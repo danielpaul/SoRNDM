@@ -10,7 +10,7 @@ class LeagueOfLegendsController < ApplicationController
   private
 
   def gen_champion
-    Faker::Name.name
+    Faker::Games::LeagueOfLegends.champion
   end
 
 end

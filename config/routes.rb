@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   #League Of Legends
   get '/league', to: 'league_of_legends#index'
+  get '/league/champion', to: 'league_of_legends#champion'
 end
