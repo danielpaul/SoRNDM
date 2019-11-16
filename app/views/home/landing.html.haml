@@ -1,3 +1,23 @@
-%h2 hello
+= render "/partials/header"
 
-= link_to "League Of Legends", league_path
+.container
+  .row
+    .col-sm
+      .card
+        .card-body
+          %h5.card-title Special title treatment
+          %p.card-text With supporting text below as a natural lead-in to additional content.
+          %a.btn.btn-primary{:href => "#"} Go somewhere
+      = link_to "League Of Legends", league_path
+    .col-sm
+      .card
+        .card-body
+          %h5.card-title Special title treatment
+          %p.card-text With supporting text below as a natural lead-in to additional content.
+          %a.btn.btn-primary{:href => "#"} Go somewhere
+    .col-sm
+      .card
+        .card-body
+          %h5.card-title Special title treatment
+          %p.card-text With supporting text below as a natural lead-in to additional content.
+          %a.btn.btn-primary{:href => "#"} Go somewhere

@@ -1440,3 +1440,65 @@ Processing by LeagueOfLegendsController#index as HTML
 Completed 200 OK in 68ms (Views: 65.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/league/champion" for ::1 at 2019-11-16 12:57:41 +0000
+Processing by LeagueOfLegendsController#champion as HTML
+  Rendering league_of_legends/champion.html.haml within layouts/application
+  Rendered league_of_legends/champion.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 59ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-16 13:10:33 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered home/landing.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 109ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-16 13:10:52 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered partials/_header.html.haml (7.4ms)
+  Rendered home/landing.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 13:11:32 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (4.9ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 50ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-16 13:11:35 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered partials/_header.html.haml (6.8ms)
+  Rendered home/landing.html.haml within layouts/application (11.5ms)
+Completed 200 OK in 66ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-16 13:15:01 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered partials/_header.html.haml (7.4ms)
+  Rendered home/landing.html.haml within layouts/application (19.7ms)
+Completed 200 OK in 213ms (Views: 210.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-16 13:16:47 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered partials/_header.html.haml (4.4ms)
+  Rendered home/landing.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 49ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-16 13:17:07 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered partials/_header.html.haml (4.4ms)
+  Rendered home/landing.html.haml within layouts/application (12.5ms)
+Completed 200 OK in 69ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
