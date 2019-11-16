@@ -792,3 +792,59 @@ Processing by LeagueOfLegendsController#champion as HTML
 Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-11-16 14:45:19 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered home/landing.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 448ms (Views: 437.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 14:45:29 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered league_of_legends/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 74ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league/champion" for ::1 at 2019-11-16 14:45:30 +0000
+Processing by LeagueOfLegendsController#champion as HTML
+  Rendering league_of_legends/champion.html.haml within layouts/application
+  Rendered league_of_legends/champion.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 319ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league/champion" for ::1 at 2019-11-16 14:45:33 +0000
+Processing by LeagueOfLegendsController#champion as HTML
+  Rendering league_of_legends/champion.html.haml within layouts/application
+  Rendered league_of_legends/champion.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league/champion" for ::1 at 2019-11-16 14:45:35 +0000
+Processing by LeagueOfLegendsController#champion as HTML
+  Rendering league_of_legends/champion.html.haml within layouts/application
+  Rendered league_of_legends/champion.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league/champion" for ::1 at 2019-11-16 14:45:36 +0000
+Processing by LeagueOfLegendsController#champion as HTML
+  Rendering league_of_legends/champion.html.haml within layouts/application
+  Rendered league_of_legends/champion.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league/champion" for ::1 at 2019-11-16 14:45:36 +0000
+Processing by LeagueOfLegendsController#champion as HTML
+  Rendering league_of_legends/champion.html.haml within layouts/application
+  Rendered league_of_legends/champion.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league/champion" for ::1 at 2019-11-16 14:45:40 +0000
+Processing by LeagueOfLegendsController#champion as HTML
+  Rendering league_of_legends/champion.html.haml within layouts/application
+  Rendered league_of_legends/champion.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
