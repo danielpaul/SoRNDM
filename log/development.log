@@ -935,3 +935,508 @@ Processing by HomeController#landing as HTML
 Completed 200 OK in 62ms (Views: 57.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-11-16 12:45:20 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered home/landing.html.haml within layouts/application (13.8ms)
+Completed 200 OK in 250ms (Views: 243.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-16 12:45:41 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered home/landing.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-16 12:45:44 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered home/landing.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:45:50 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered league_of_legends/index.html.haml within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial league_of_legends/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/jp/SoRandom/app/views"
+):
+    1: lol
+    2: 
+    3: = render "header"
+    4: = link_to "hello", root_path
+    5: = link_to "Random Champion", league_champion_path
+  
+app/views/league_of_legends/index.html.haml:3:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208306055300'
+Started GET "/league" for ::1 at 2019-11-16 12:46:06 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered league_of_legends/index.html.haml within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial partials/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/jp/SoRandom/app/views"
+):
+    1: lol
+    2: 
+    3: = render "/partials/header"
+    4: = link_to "hello", root_path
+    5: = link_to "Random Champion", league_champion_path
+  
+app/views/league_of_legends/index.html.haml:3:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208317116320'
+Started GET "/league" for ::1 at 2019-11-16 12:46:33 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered league_of_legends/index.html.haml within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial league_of_legends/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/jp/SoRandom/app/views"
+):
+    1: lol
+    2: 
+    3: = render "header"
+    4: = link_to "hello", root_path
+    5: = link_to "Random Champion", league_champion_path
+  
+app/views/league_of_legends/index.html.haml:3:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208321084580'
+Started GET "/league" for ::1 at 2019-11-16 12:46:48 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered league_of_legends/index.html.haml within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial league_of_legends/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/jp/SoRandom/app/views"
+):
+    1: lol
+    2: 
+    3: = render "header"
+    4: = link_to "hello", root_path
+    5: = link_to "Random Champion", league_champion_path
+  
+app/views/league_of_legends/index.html.haml:3:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208258906460'
+Started GET "/league" for ::1 at 2019-11-16 12:46:50 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered league_of_legends/index.html.haml within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial league_of_legends/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/jp/SoRandom/app/views"
+):
+    1: lol
+    2: 
+    3: = render "header"
+    4: = link_to "hello", root_path
+    5: = link_to "Random Champion", league_champion_path
+  
+app/views/league_of_legends/index.html.haml:3:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208298350200'
+Started GET "/league" for ::1 at 2019-11-16 12:47:09 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered league_of_legends/index.html.haml within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial league_of_legends/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/jp/SoRandom/app/views"
+):
+    1: lol
+    2: 
+    3: = render "header"
+    4: = link_to "hello", root_path
+    5: = link_to "Random Champion", league_champion_path
+  
+app/views/league_of_legends/index.html.haml:3:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208318210640'
+Started GET "/league" for ::1 at 2019-11-16 12:47:16 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (173.1ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (177.6ms)
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x00007fb54a3d1df8>:0x00007fb5492f09d0>
+Did you mean?  URI):
+    1: / Just an image
+    2: %nav.navbar.navbar-light.bg-light
+    3:   %a.navbar-brand{:href => "#"}
+    4:     %img{:alt => "", :height => "30", :src => -url("soRNDM.png"), :width => "30"}/
+  
+app/views/partials/_header.html.haml:4:in `_app_views_partials__header_html_haml__2088064450605981681_70208296845360'
+app/views/league_of_legends/index.html.haml:3:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208296814840'
+Started GET "/league" for ::1 at 2019-11-16 12:47:33 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (5.2ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 83ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/soRNDM.png" for ::1 at 2019-11-16 12:47:33 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/soRNDM.png"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/league" for ::1 at 2019-11-16 12:47:42 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (5.4ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (9.5ms)
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/soRNDM.png" for ::1 at 2019-11-16 12:47:43 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/soRNDM.png"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/league" for ::1 at 2019-11-16 12:49:02 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (5.6ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (20.2ms)
+Completed 200 OK in 139ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/soRNDM.png" for ::1 at 2019-11-16 12:49:02 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/soRNDM.png"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-11-16 12:49:46 +0000
+Processing by HomeController#landing as HTML
+  Rendering home/landing.html.haml within layouts/application
+  Rendered home/landing.html.haml within layouts/application (16.3ms)
+Completed 200 OK in 299ms (Views: 292.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:49:48 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (12.2ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jp/SoRandom/app/views/partials/_header.html.haml:4: syntax error, unexpected '='
+... "", :height => "30", :src => =image_tag "soRNDM.png, :width...
+...                              ^
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:4: syntax error, unexpected tINTEGER, expecting ')'
+..._tag "soRNDM.png, :width => "30")).to_s);; _hamlout.buffer <...
+...                             ^~
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:4: syntax error, unexpected backslash
+...to_s);; _hamlout.buffer << (">\n</a>\n</nav>\n".freeze);::Ha...
+...                              ^
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:4: unknown regexp options - av
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:4: syntax error, unexpected backslash
+...ut.buffer << (">\n</a>\n</nav>\n".freeze);::Haml::Util.html_...
+...                              ^
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:7: unterminated string meets end of file
+          end
+              ^
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:7: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/partials/_header.html.haml:4: syntax error, unexpected '='
+app/views/partials/_header.html.haml:4: syntax error, unexpected tINTEGER, expecting ')'
+app/views/partials/_header.html.haml:4: syntax error, unexpected backslash
+app/views/partials/_header.html.haml:4: unknown regexp options - av
+app/views/partials/_header.html.haml:4: syntax error, unexpected backslash
+app/views/partials/_header.html.haml:7: unterminated string meets end of file
+app/views/partials/_header.html.haml:7: syntax error, unexpected end-of-input, expecting ')'
+app/views/league_of_legends/index.html.haml:2:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208306661460'
+Started GET "/league" for ::1 at 2019-11-16 12:50:24 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (3.5ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jp/SoRandom/app/views/partials/_header.html.haml:5: syntax error, unexpected backslash, expecting ')'
+....to_s);; _hamlout.buffer << ("\n</a>\n</nav>\n".freeze);::Ha...
+...                              ^
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:5: unknown regexp options - av
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:5: syntax error, unexpected backslash
+...out.buffer << ("\n</a>\n</nav>\n".freeze);::Haml::Util.html_...
+...                              ^
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:8: unterminated string meets end of file
+          end
+              ^
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:8: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/partials/_header.html.haml:5: syntax error, unexpected backslash, expecting ')'
+app/views/partials/_header.html.haml:5: unknown regexp options - av
+app/views/partials/_header.html.haml:5: syntax error, unexpected backslash
+app/views/partials/_header.html.haml:8: unterminated string meets end of file
+app/views/partials/_header.html.haml:8: syntax error, unexpected end-of-input, expecting ')'
+app/views/league_of_legends/index.html.haml:2:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208296945000'
+Started GET "/league" for ::1 at 2019-11-16 12:50:46 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (4.2ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jp/SoRandom/app/views/partials/_header.html.haml:5: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:5: syntax error, unexpected ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:5: syntax error, unexpected end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:8: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/partials/_header.html.haml:5: syntax error, unexpected ')'
+app/views/partials/_header.html.haml:5: syntax error, unexpected ensure, expecting ')'
+app/views/partials/_header.html.haml:5: syntax error, unexpected end, expecting ')'
+app/views/partials/_header.html.haml:8: syntax error, unexpected end, expecting ')'
+app/views/league_of_legends/index.html.haml:2:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208258624360'
+Started GET "/league" for ::1 at 2019-11-16 12:50:50 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (153.4ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (156.7ms)
+Completed 200 OK in 189ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:51:20 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (21.4ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (42.1ms)
+Completed 200 OK in 119ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:51:45 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (3.2ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jp/SoRandom/app/views/partials/_header.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+...soRNDM.png", width: "30" height: "30"
+...                         ^~~~~~):
+  
+app/views/partials/_header.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/league_of_legends/index.html.haml:2:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208325061320'
+Started GET "/league" for ::1 at 2019-11-16 12:51:52 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (4.4ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jp/SoRandom/app/views/partials/_header.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+... "soRNDM.png", width: 30 height: 30
+...                         ^~~~~~):
+  
+app/views/partials/_header.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/league_of_legends/index.html.haml:2:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208297644300'
+Started GET "/league" for ::1 at 2019-11-16 12:52:29 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (3.2ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jp/SoRandom/app/views/partials/_header.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+...("soRNDM.png", width: 30 height: 30)
+...                         ^~~~~~
+/Users/jp/SoRandom/app/views/partials/_header.html.haml:5: syntax error, unexpected ')', expecting end
+)).to_s);).to_s);; _hamlout.buffer << ("\n</n...
+               ^):
+  
+app/views/partials/_header.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/partials/_header.html.haml:5: syntax error, unexpected ')', expecting end
+app/views/league_of_legends/index.html.haml:2:in `_app_views_league_of_legends_index_html_haml___2265641137735987259_70208317922240'
+Started GET "/league" for ::1 at 2019-11-16 12:52:55 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (6.5ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:53:07 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (5.5ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:53:23 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (4.6ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:53:36 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (5.3ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:53:40 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (5.0ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:53:46 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (4.7ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:53:55 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (3.9ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:54:24 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (5.5ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:55:44 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (5.3ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 1672ms (Views: 1671.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league" for ::1 at 2019-11-16 12:55:53 +0000
+Processing by LeagueOfLegendsController#index as HTML
+  Rendering league_of_legends/index.html.haml within layouts/application
+  Rendered partials/_header.html.haml (4.6ms)
+  Rendered league_of_legends/index.html.haml within layouts/application (9.5ms)
+Completed 200 OK in 68ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
